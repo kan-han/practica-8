@@ -1,0 +1,63 @@
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0px;
+    width: 25%; /*Esto es el tamaño que va a ocupar en la pantalla */
+    background-color: rgb(181, 105, 105);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+}
+
+li a.active{
+    background-color: blue;
+    color: white;
+}
+
+li a:hover:not(active){
+    background-color: gray;
+    color: white;
+}
+
+#home{
+    margin-left: 25%;
+    height: 1000px;
+    background-color: aquamarine;
+    padding: 25px; /*Espaciado entre los elemntos */
+    border: 10px solid red;
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#news{
+    margin-left: 25%;
+    height: 1000px;
+    background-color: wheat;
+    padding: 25px; /*Espaciado entre los elemntos */
+    border: 10px solid purple;
+}
+
+#contact{
+    margin-left: 25%;
+    height: 1000px;
+    background-color: cyan;
+    padding: 25px; /*Espaciado entre los elemntos */
+    border: 10px solid blue;
+}
+
+#about{
+    margin-left: 25%;
+    height: 1000px;
+    background-color: bisque;
+    padding: 25px; /*Espaciado entre los elemntos */
+    border: 10px solid red;
+}
